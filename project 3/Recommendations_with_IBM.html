@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Recommendations_with_IBM_p3</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Recommendations_with_IBM</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14274,7 +14274,7 @@ VI. <a href="#conclusions">Extras &amp; Concluding</a></p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[114]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -14307,7 +14307,7 @@ VI. <a href="#conclusions">Extras &amp; Concluding</a></p>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[114]:</div>
 
 
 
@@ -14380,7 +14380,7 @@ VI. <a href="#conclusions">Extras &amp; Concluding</a></p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[115]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Show df_content to get an idea of the data</span>
@@ -14400,7 +14400,7 @@ VI. <a href="#conclusions">Extras &amp; Concluding</a></p>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[115]:</div>
 
 
 
@@ -14492,7 +14492,7 @@ VI. <a href="#conclusions">Extras &amp; Concluding</a></p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[116]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">article_interaction</span><span class="o">=</span><span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;email&#39;</span><span class="p">)[</span><span class="s1">&#39;article_id&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">count</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
@@ -14513,7 +14513,7 @@ VI. <a href="#conclusions">Extras &amp; Concluding</a></p>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[6]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[116]:</div>
 
 
 
@@ -14611,7 +14611,7 @@ VI. <a href="#conclusions">Extras &amp; Concluding</a></p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[117]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">[</span><span class="mi">15</span><span class="p">,</span> <span class="mi">7</span><span class="p">])</span>
@@ -14655,7 +14655,7 @@ VI. <a href="#conclusions">Extras &amp; Concluding</a></p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[118]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">article_interaction</span><span class="p">[</span><span class="s1">&#39;num_article&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
@@ -14674,7 +14674,7 @@ VI. <a href="#conclusions">Extras &amp; Concluding</a></p>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[118]:</div>
 
 
 
@@ -14697,16 +14697,53 @@ Name: num_article, dtype: float64</pre>
 
 </div>
 
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[165]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">article_interaction</span><span class="p">[</span><span class="s1">&#39;num_article&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[165]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>364</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[166]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Fill in the median and maximum number of user_article interactions below</span>
 
-<span class="n">median_val</span> <span class="o">=</span> <span class="mi">3</span> <span class="c1"># 50% of individuals interact with ____ number of articles or fewer.</span>
-<span class="n">max_views_by_user</span> <span class="o">=</span> <span class="mi">364</span> <span class="c1"># The maximum number of user-article interactions by any 1 user is ______.</span>
+<span class="n">median_val</span> <span class="o">=</span> <span class="n">article_interaction</span><span class="p">[</span><span class="s1">&#39;num_article&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">median</span><span class="p">()</span> <span class="c1"># 50% of individuals interact with ____ number of articles or fewer.</span>
+<span class="n">max_views_by_user</span> <span class="o">=</span> <span class="n">article_interaction</span><span class="p">[</span><span class="s1">&#39;num_article&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span> <span class="c1"># The maximum number of user-article interactions by any 1 user is ______.</span>
 </pre></div>
 
      </div>
@@ -14723,7 +14760,7 @@ Name: num_article, dtype: float64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[120]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Find and explore duplicate articles</span>
@@ -14743,7 +14780,7 @@ Name: num_article, dtype: float64</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[120]:</div>
 
 
 
@@ -14761,7 +14798,7 @@ Name: num_article, dtype: float64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[121]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Remove any rows that have the same article_id - only keep the first</span>
@@ -14786,7 +14823,7 @@ Name: num_article, dtype: float64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[122]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span> <span class="c1">#The number of unique articles that have an interaction with a user.</span>
@@ -14806,7 +14843,7 @@ Name: num_article, dtype: float64</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[12]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[122]:</div>
 
 
 
@@ -14824,7 +14861,7 @@ Name: num_article, dtype: float64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[123]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#The number of unique articles in the dataset (whether they have any interactions or not).</span>
@@ -14844,7 +14881,7 @@ Name: num_article, dtype: float64</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[13]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[123]:</div>
 
 
 
@@ -14862,7 +14899,7 @@ Name: num_article, dtype: float64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[124]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#The number of unique users in the dataset. (excluding null values) </span>
@@ -14883,7 +14920,7 @@ Name: num_article, dtype: float64</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[124]:</div>
 
 
 
@@ -14901,7 +14938,7 @@ Name: num_article, dtype: float64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[125]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#The number of user-article interactions in the dataset.</span>
@@ -14921,7 +14958,7 @@ Name: num_article, dtype: float64</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[125]:</div>
 
 
 
@@ -14939,13 +14976,13 @@ Name: num_article, dtype: float64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[126]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">unique_articles</span> <span class="o">=</span><span class="mi">714</span> <span class="c1"># The number of unique articles that have at least one interaction</span>
-<span class="n">total_articles</span> <span class="o">=</span><span class="mi">1051</span> <span class="c1"># The number of unique articles on the IBM platform</span>
-<span class="n">unique_users</span> <span class="o">=</span> <span class="mi">5148</span> <span class="c1"># The number of unique users</span>
-<span class="n">user_article_interactions</span> <span class="o">=</span> <span class="mi">45993</span> <span class="c1"># The number of user-article interactions</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">unique_articles</span> <span class="o">=</span><span class="n">df</span><span class="o">.</span><span class="n">article_id</span><span class="o">.</span><span class="n">nunique</span><span class="p">()</span> <span class="c1"># The number of unique articles that have at least one interaction</span>
+<span class="n">total_articles</span> <span class="o">=</span><span class="n">df_content</span><span class="o">.</span><span class="n">article_id</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">count</span><span class="p">()</span> <span class="c1"># The number of unique articles on the IBM platform</span>
+<span class="n">unique_users</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">email</span><span class="o">.</span><span class="n">nunique</span><span class="p">()</span> <span class="c1"># The number of unique users</span>
+<span class="n">user_article_interactions</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="c1"># The number of user-article interactions</span>
 </pre></div>
 
      </div>
@@ -14962,7 +14999,7 @@ Name: num_article, dtype: float64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[127]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;article_id&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
@@ -14981,7 +15018,7 @@ Name: num_article, dtype: float64</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[127]:</div>
 
 
 
@@ -15000,11 +15037,11 @@ Name: article_id, dtype: int64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[128]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">most_viewed_article_id</span> <span class="o">=</span> <span class="mi">1429</span> <span class="c1"># The most viewed article in the dataset as a string with one value following the decimal </span>
-<span class="n">max_views</span> <span class="o">=</span> <span class="mi">937</span> <span class="c1"># The most viewed article in the dataset was viewed how many times?</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">most_viewed_article_id</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;article_id&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">index</span> <span class="c1"># The most viewed article in the dataset as a string with one value following the decimal </span>
+<span class="n">max_views</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;article_id&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">values</span> <span class="c1"># The most viewed article in the dataset was viewed how many times?</span>
 </pre></div>
 
      </div>
@@ -15015,7 +15052,7 @@ Name: article_id, dtype: int64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[129]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## No need to change the code here - this will be helpful for later parts of the notebook</span>
@@ -15055,7 +15092,7 @@ Name: article_id, dtype: int64</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[19]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[129]:</div>
 
 
 
@@ -15135,7 +15172,7 @@ Name: article_id, dtype: int64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[130]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;title&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
@@ -15154,23 +15191,23 @@ Name: article_id, dtype: int64</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[20]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[130]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>use deep learning for image classification                                            937
-insights from new york car accident reports                                           927
-visualize car data with brunel                                                        671
-use xgboost, scikit-learn &amp; ibm watson machine learning apis                          643
-predicting churn with the spss random tree algorithm                                  627
-                                                                                     ... 
-airbnb data for analytics: oakland reviews                                              1
-country statistics: market value of publicly traded shares                              1
-webinar: april 11 - thinking inside the box: you can do that inside a data frame?!      1
-build deep learning architectures with neural network modeler                           1
-country statistics: natural gas - consumption                                           1
+<pre>use deep learning for image classification                      937
+insights from new york car accident reports                     927
+visualize car data with brunel                                  671
+use xgboost, scikit-learn &amp; ibm watson machine learning apis    643
+predicting churn with the spss random tree algorithm            627
+                                                               ... 
+airbnb data for analytics: london reviews                         1
+airbnb data for analytics: oakland reviews                        1
+airbnb data for analytics: san diego listings                     1
+measles immunization % children 12-23 months by country           1
+country statistics: crude oil - imports                           1
 Name: title, Length: 714, dtype: int64</pre>
 </div>
 
@@ -15183,7 +15220,7 @@ Name: title, Length: 714, dtype: int64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[131]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_top_articles</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">df</span><span class="o">=</span><span class="n">df</span><span class="p">):</span>
@@ -15227,7 +15264,7 @@ Name: title, Length: 714, dtype: int64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[132]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">get_top_articles</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>
@@ -15283,7 +15320,7 @@ Name: title, Length: 714, dtype: int64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[133]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># create the user-article matrix with 1&#39;s and 0&#39;s</span>
@@ -15320,7 +15357,7 @@ Name: title, Length: 714, dtype: int64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[134]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">user_item</span>
@@ -15339,7 +15376,7 @@ Name: title, Length: 714, dtype: int64</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[24]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[134]:</div>
 
 
 
@@ -16469,7 +16506,7 @@ Name: title, Length: 714, dtype: int64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[135]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#picke the matrix to use it later</span>
@@ -16484,13 +16521,13 @@ Name: title, Length: 714, dtype: int64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[136]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## Tests: You should just need to run this cell.  Don&#39;t change the code.</span>
-<span class="k">assert</span> <span class="n">user_item</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="mi">5149</span><span class="p">,</span> <span class="s2">&quot;Oops!  The number of users in the user-article matrix doesn&#39;t look right.&quot;</span>
-<span class="k">assert</span> <span class="n">user_item</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="mi">714</span><span class="p">,</span> <span class="s2">&quot;Oops!  The number of articles in the user-article matrix doesn&#39;t look right.&quot;</span>
-<span class="k">assert</span> <span class="n">user_item</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="mi">36</span><span class="p">,</span> <span class="s2">&quot;Oops!  The number of articles seen by user 1 doesn&#39;t look right.&quot;</span>
+<span class="k">assert</span> <span class="n">user_item</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="n">user_item</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="s2">&quot;Oops!  The number of users in the user-article matrix doesn&#39;t look right.&quot;</span>
+<span class="k">assert</span> <span class="n">user_item</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="n">user_item</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="s2">&quot;Oops!  The number of articles in the user-article matrix doesn&#39;t look right.&quot;</span>
+<span class="k">assert</span> <span class="n">user_item</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="n">user_item</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)[</span><span class="mi">1</span><span class="p">],</span> <span class="s2">&quot;Oops!  The number of articles seen by user 1 doesn&#39;t look right.&quot;</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You have passed our quick tests!  Please proceed!&quot;</span><span class="p">)</span>
 </pre></div>
 
@@ -16530,7 +16567,7 @@ Name: title, Length: 714, dtype: int64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[137]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">find_similar_users</span><span class="p">(</span><span class="n">user_id</span><span class="p">,</span> <span class="n">user_item</span><span class="o">=</span><span class="n">user_item</span><span class="p">):</span>
@@ -16569,7 +16606,7 @@ Name: title, Length: 714, dtype: int64</pre>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[138]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Do a spot check of your function</span>
@@ -16615,7 +16652,7 @@ The 3 most similar users to user 46 are: [4201, 3782, 23]
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[139]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_article_names</span><span class="p">(</span><span class="n">article_ids</span><span class="p">,</span><span class="n">df</span><span class="o">=</span><span class="n">df</span><span class="p">):</span>
@@ -16696,11 +16733,11 @@ The 3 most similar users to user 46 are: [4201, 3782, 23]
         <span class="n">similar_user_article_id</span><span class="p">,</span> <span class="n">similar_user_article_name</span> <span class="o">=</span> <span class="n">get_user_articles</span><span class="p">(</span><span class="n">user</span><span class="p">)</span>
         
         <span class="k">for</span> <span class="n">article</span> <span class="ow">in</span> <span class="n">similar_user_article_id</span><span class="p">:</span>
-            
             <span class="k">if</span> <span class="n">article</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">current_user_article_id</span> <span class="ow">and</span> <span class="n">article</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">recs</span><span class="p">:</span>
-                <span class="n">recs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">article</span><span class="p">)</span>
-                <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">recs</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="n">m</span><span class="p">:</span>
+              <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">recs</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="n">m</span><span class="p">:</span>
                     <span class="k">break</span> 
+              <span class="k">else</span><span class="p">:</span>
+                <span class="n">recs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">article</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">recs</span><span class="c1"># return your recommendations for this user_id     </span>
 </pre></div>
 
@@ -16712,11 +16749,11 @@ The 3 most similar users to user 46 are: [4201, 3782, 23]
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[31]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[140]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Check Results</span>
-<span class="n">get_article_names</span><span class="p">(</span><span class="n">user_user_recs</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span> <span class="c1"># Return 10 recommendations for user 1</span>
+<span class="n">get_article_names</span><span class="p">(</span><span class="n">user_user_recs</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span> <span class="c1"># Return 10 recommendations for user 1</span>
 </pre></div>
 
      </div>
@@ -16732,7 +16769,19 @@ The 3 most similar users to user 46 are: [4201, 3782, 23]
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[31]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>10
+</pre>
+</div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[140]:</div>
 
 
 
@@ -16747,641 +16796,7 @@ The 3 most similar users to user 46 are: [4201, 3782, 23]
  &#39;experience iot with coursera&#39;,
  &#39;using brunel in ipython/jupyter notebooks&#39;,
  &#39;graph-based machine learning&#39;,
- &#39;the 3 kinds of context: machine learning and the art of the frame&#39;,
- &#39;this week in data science (may 2, 2017)&#39;,
- &#39;the greatest public datasets for ai – startup grind&#39;,
- &#39;working interactively with rstudio and notebooks in dsx&#39;,
- &#39;ensemble learning to improve machine learning results&#39;,
- &#39;how to map usa rivers using ggplot2&#39;,
- &#39;top 20 r machine learning and data science packages&#39;,
- &#39;improving the roi of big data and analytics through leveraging new sources of data&#39;,
- &#39;data science bowl 2017&#39;,
- &#39;top 10 machine learning use cases: part 1&#39;,
- &#39;python machine learning: scikit-learn tutorial&#39;,
- &#39;learn tensorflow and deep learning together and now!&#39;,
- &#39;introducing streams designer&#39;,
- &#39;leverage scikit-learn models with core ml&#39;,
- &#34;a kaggler&#39;s guide to model stacking in practice&#34;,
- &#39;interconnect with us&#39;,
- &#39;modern machine learning algorithms&#39;,
- &#39;how to choose a project to practice data science&#39;,
- &#39;how to scale your analytics using r&#39;,
- &#39;how open api economy accelerates the growth of big data and analytics&#39;,
- &#39;this week in data science (january 17, 2017)&#39;,
- &#39;practical tutorial on random forest and parameter tuning in r&#39;,
- &#39;access mysql with python&#39;,
- &#39;pixiedust: magic for your python notebook&#39;,
- &#39;how to ease the strain as your data volumes rise&#39;,
- &#39;tidy up your jupyter notebooks with scripts&#39;,
- &#39;transfer learning for flight delay prediction via variational autoencoders&#39;,
- &#39;this week in data science (february 7, 2017)&#39;,
- &#39;building custom machine learning algorithms with apache systemml&#39;,
- &#39;a dynamic duo – inside machine learning – medium&#39;,
- &#39;520    using notebooks with pixiedust for fast, flexi...\nName: title, dtype: object&#39;,
- &#39;watson machine learning for developers&#39;,
- &#39;d3heatmap: interactive heat maps&#39;,
- &#39;68879    don’t throw more data at the problem! here’s h...\nName: title, dtype: object&#39;,
- &#39;how to solve 90% of nlp problems&#39;,
- &#39;this week in data science (may 16, 2017)&#39;,
- &#39;using bigdl in dsx for deep learning on spark&#39;,
- &#34;feature importance and why it&#39;s important&#34;,
- &#39;modeling energy usage in new york city&#39;,
- &#39;10 must attend data science, ml and ai conferences in 2018&#39;,
- &#39;a visual explanation of the back propagation algorithm for neural networks&#39;,
- &#39;web picks (week of 4 september 2017)&#39;,
- &#39;9 mistakes to avoid when starting your career in data science&#39;,
- &#39;neural networks for beginners: popular types and applications&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;probabilistic graphical models tutorial\u200a—\u200apart 2 – stats and bots&#39;,
- &#39;deep learning with data science experience&#39;,
- &#39;an introduction to scientific python (and a bit of the maths behind it) – numpy&#39;,
- &#39;when machine learning matters · erik bernhardsson&#39;,
- &#39;dsx: hybrid mode&#39;,
- &#39;data visualization playbook: the right level of detail&#39;,
- &#39;the machine learning database&#39;,
- &#39;sparklyr — r interface for apache spark&#39;,
- &#39;simple graphing with ipython and\xa0pandas&#39;,
- &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
- &#39;statistics for hackers&#39;,
- &#39;get started with streams designer by following this roadmap&#39;,
- &#39;this week in data science (january 24, 2017)&#39;,
- &#39;collecting data science cheat sheets&#39;,
- &#39;building a business that combines human experts and data science&#39;,
- &#39;machine learning and the science of choosing&#39;,
- &#39;this week in data science (february 14, 2017)&#39;,
- &#39;i am not a data scientist – ibm watson data lab&#39;,
- &#39;the million dollar question: where is my data?&#39;,
- &#39;bayesian nonparametric models – stats and bots&#39;,
- &#39;what is text analytics?&#39;,
- &#39;data science experience documentation&#39;,
- &#39;common excel tasks demonstrated in\xa0pandas&#39;,
- &#39;data wrangling with dplyr and tidyr cheat sheet&#39;,
- &#39;using deep learning with keras to predict customer churn&#39;,
- &#39;this week in data science (february 28, 2017)&#39;,
- &#39;data science for real-time streaming analytics&#39;,
- &#39;accelerate your workflow with dsx&#39;,
- &#39;deep learning trends and an example&#39;,
- &#39;ibm data science experience white paper - sparkr transforming r into a tool for big data analytics&#39;,
- &#39;use the machine learning library&#39;,
- &#39;8 ways to turn data into value with apache spark machine learning&#39;,
- &#39;predicting gentrification using longitudinal census data&#39;,
- &#34;a beginner&#39;s guide to variational methods&#34;,
- &#39;building your first machine learning system &#39;,
- &#39;getting started with graphframes in apache spark™&#39;,
- &#39;pulling and displaying etf data&#39;,
- &#39;leverage python, scikit, and text classification for behavioral profiling&#39;,
- &#39;mycheatsheets.com&#39;,
- &#39;analyze open data sets using pandas in a python notebook&#39;,
- &#39;this week in data science (january 31, 2017)&#39;,
- &#39;improving real-time object detection with yolo&#39;,
- &#39;using machine learning to predict value of homes on airbnb&#39;,
- &#39;best packages for data manipulation in r&#39;,
- &#39;predicting flight cancellations using weather data, part 3&#39;,
- &#39;some random weekend reading&#39;,
- &#39;neural language modeling from scratch (part 1)&#39;,
- &#39;this week in data science (may 30, 2017)&#39;,
- &#39;an introduction to stock market data analysis with r (part 1)&#39;,
- &#39;notebooks: a power tool for data scientists&#39;,
- &#39;declarative machine learning&#39;,
- &#39;20405    how to tame the valley — hessian-free hacks fo...\nName: title, dtype: object&#39;,
- &#39;top analytics tools in 2016&#39;,
- &#39;analyzing data by using the sparkling.data library features&#39;,
- &#39;8170    data science expert interview: dez blanchfield...\nName: title, dtype: object&#39;,
- &#39;this week in data science (march 28, 2017)&#39;,
- &#39;data science platforms are on the rise and ibm is leading the way&#39;,
- &#39;using apply, sapply, lapply in r&#39;,
- &#39;analyze open data sets with pandas dataframes&#39;,
- &#39;data visualization: the importance of excluding unnecessary details&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;generalization in deep learning&#39;,
- &#39;backpropagation — how neural networks learn complex behaviors&#39;,
- &#39;collect your own fitbit data with python&#39;,
- &#39;use ibm data science experience to detect time series anomalies&#39;,
- &#39;data structures related to machine learning algorithms&#39;,
- &#39;upload data and create data frames in jupyter notebooks&#39;,
- &#39;self-service data preparation with ibm data refinery&#39;,
- &#39;apple, ibm add machine learning to partnership with watson-core ml coupling&#39;,
- &#39;challenges in deep learning&#39;,
- &#39;ibm data catalog is now generally available&#39;,
- &#39;pixiedust gets its first community-driven feature in 1.0.4&#39;,
- &#39;3992    using apache spark to predict attack vectors a...\nName: title, dtype: object&#39;,
- &#39;introduction to neural networks, advantages and applications&#39;,
- &#39;adoption of machine learning to software failure prediction&#39;,
- &#39;pixiedust 1.0 is here! – ibm watson data lab&#39;,
- &#39;3 scenarios for machine learning on multicloud&#39;,
- &#39;brunel 2.0 preview&#39;,
- &#39;10 tips on using jupyter notebook&#39;,
- &#39;apache spark 2.0: machine learning. under the hood and over the rainbow.&#39;,
- &#39;neurally embedded emojis&#39;,
- &#39;markdown for jupyter notebooks cheatsheet&#39;,
- &#34;december &#39;16 rstudio tips and tricks&#34;,
- &#39;analyze open data sets with spark &amp; pixiedust&#39;,
- &#39;an attempt to understand boosting algorithm(s)&#39;,
- &#39;what is hadoop?&#39;,
- &#39;1448    i ranked every intro to data science course on...\nName: title, dtype: object&#39;,
- &#39;pseudo-labeling a simple semi-supervised learning method&#39;,
- &#39;the two phases of gradient descent in deep learning&#39;,
- &#39;three reasons machine learning models go out of sync&#39;,
- &#39;web picks (december 2017)&#39;,
- &#39;access ibm analytics for apache spark from rstudio&#39;,
- &#39;1357    what i learned implementing a classifier from ...\nName: title, dtype: object&#39;,
- &#39;0 to life-changing app: new apache systemml api on spark shell&#39;,
- &#39;a classification problem&#39;,
- &#39;build a naive-bayes model with wml &amp; dsx&#39;,
- &#39;xml2 1.0.0&#39;,
- &#39;this week in data science (april 4, 2017)&#39;,
- &#39;getting started with python&#39;,
- &#39;what is machine learning?&#39;,
- &#39;optimizing a marketing campaign: moving from predictions to actions&#39;,
- &#39;workflow in r&#39;,
- &#39;apache spark lab, part 2: querying data&#39;,
- &#39;data science in the cloud&#39;,
- &#39;using github for project control in dsx&#39;,
- &#39;trust in data science&#39;,
- &#39;brunel: imitation is a sincere form of flattery&#39;,
- &#39;car performance data&#39;,
- &#39;deep learning, structure and innate priors&#39;,
- &#39;tidy data in python&#39;,
- &#39;what’s new in the streaming analytics service on bluemix&#39;,
- &#39;real-time sentiment analysis of twitter hashtags with spark (+ pixiedust)&#39;,
- &#39;apache spark lab, part 3: machine learning&#39;,
- &#34;i&#39;d rather predict basketball games than elections: elastic nba rankings&#34;,
- &#39;this week in data science (march 7, 2017)&#39;,
- &#39;analyze precipitation data&#39;,
- &#39;apache spark™ 2.0: extend structured streaming for spark ml&#39;,
- &#39;spark 1.4 for rstudio&#39;,
- &#39;tidyr 0.6.0&#39;,
- &#39;drowning in data sources: how data cataloging could fix your findability problems&#39;,
- &#39;analyzing streaming data from kafka topics&#39;,
- &#39;read and write data to and from amazon s3 buckets in rstudio&#39;,
- &#39;bayesian regularization for #neuralnetworks – autonomous agents\u200a—\u200a#ai&#39;,
- &#39;rstudio ide  cheat sheet&#39;,
- &#39;perform sentiment analysis with lstms, using tensorflow&#39;,
- &#39;the data science process&#39;,
- &#39;can a.i. be taught to explain itself?&#39;,
- &#39;making data cleaning simple with the sparkling.data library&#39;,
- &#39;word2vec in data products&#39;,
- &#39;getting started with apache mahout&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;this week in data science (april 11, 2017)&#39;,
- &#39;apache spark™ 2.0: impressive improvements to spark sql&#39;,
- &#39;how to perform a logistic regression in r&#39;,
- &#39;statistical bias types explained (with examples)&#39;,
- &#39;using shell scripts to control data flows created in watson applications&#39;,
- &#39;manage object storage in dsx&#39;,
- &#39;make machine learning a reality for your enterprise&#39;,
- &#39;10 data science podcasts you need to be listening to right now&#39;,
- &#39;upload files to ibm data science experience using the command line&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;create a project for watson machine learning in dsx&#39;,
- &#39;56594    lifelong (machine) learning: how automation ca...\nName: title, dtype: object&#39;,
- &#39;access mysql with r&#39;,
- &#39;predict chronic kidney disease using spss modeler flows&#39;,
- &#39;brunel in jupyter&#39;,
- &#39;using machine learning to predict baseball injuries&#39;,
- &#39;data visualization with ggplot2 cheat sheet&#39;,
- &#39;analyze ny restaurant data using spark in dsx&#39;,
- &#39;use spark r to load and analyze data&#39;,
- &#39;access postgresql with r&#39;,
- &#39;70 amazing free data sources you should know&#39;,
- &#39;analyze traffic data from the city of san francisco&#39;,
- &#39;pearson correlation aggregation on sparksql&#39;,
- &#39;data tidying in data science experience&#39;,
- &#39;hyperparameter optimization: sven hafeneger&#39;,
- &#39;making data science a team sport&#39;,
- &#39;15 page tutorial for r&#39;,
- &#39;small steps to tensorflow&#39;,
- &#39;web picks - dataminingapps&#39;,
- &#39;this week in data science (august 02, 2016)&#39;,
- &#39;are your predictive models like broken clocks?&#39;,
- &#39;breast cancer detection with xgboost, wml and scikit&#39;,
- &#39;machine learning exercises in python, part 1&#39;,
- &#39;analyze accident reports on amazon emr spark&#39;,
- &#39;developing for the ibm streaming analytics service&#39;,
- &#39;calls by customers of a telco company&#39;,
- &#39;spark sql - rapid performance evolution&#39;,
- &#39;quick guide to build a recommendation engine in python&#39;,
- &#39;discover hidden facebook usage insights&#39;,
- &#39;brunel interactive visualizations in jupyter notebooks&#39;,
- &#39;apache spark @scale: a 60 tb+ production use case&#39;,
- &#39;what is spark?&#39;,
- &#39;random forest interpretation – conditional feature contributions&#39;,
- &#39;variational auto-encoder for &#34;frey faces&#34; using keras&#39;,
- &#39;the nurse assignment problem&#39;,
- &#39;apache spark™ 2.0: migrating applications&#39;,
- &#39;how ibm builds an effective data science team&#39;,
- &#39;flightpredict ii: the sequel  – ibm watson data lab&#39;,
- &#39;readr 1.0.0&#39;,
- &#39;web picks (week of 23 january 2017)&#39;,
- &#39;excel files: loading from object storage — python&#39;,
- &#39;gosales transactions for logistic regression model&#39;,
- &#39;analyze energy consumption in buildings&#39;,
- &#39;predicting the 2016 us presidential election&#39;,
- &#39;deploy your python model as a restful api&#39;,
- &#39;using rstudio in ibm data science experience&#39;,
- &#39;gradient boosting explained&#39;,
- &#39;this week in data science (january 10, 2017)&#39;,
- &#39;cifar-100 - python version&#39;,
- &#39;this week in data science (may 23, 2017)&#39;,
- &#39;top 10 machine learning algorithms for beginners&#39;,
- &#39;automating web analytics through python&#39;,
- &#39;data visualization playbook: telling the data story&#39;,
- &#39;recommendation system algorithms – stats and bots&#39;,
- &#39;generative adversarial networks (gans)&#39;,
- &#39;the pandas data analysis library&#39;,
- &#39;access postgresql with python&#39;,
- &#39;join and enrich data from multiple sources&#39;,
- &#39;announcing dsx environments in beta!&#39;,
- &#39;from scikit-learn model to cloud with wml client&#39;,
- &#39;configuring the apache spark sql context&#39;,
- &#39;flexdashboard: interactive dashboards for r&#39;,
- &#39;working with db2 warehouse on cloud in data science experience&#39;,
- &#39;use the cloudant-spark connector in python notebook&#39;,
- &#39;10 essential algorithms for machine learning engineers&#39;,
- &#39;using dsx notebooks to analyze github data&#39;,
- &#39;jupyter notebooks with scala, python, or r kernels&#39;,
- &#39;using deep learning to reconstruct high-resolution audio&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;healthcare python streaming application demo&#39;,
- &#39;better together: spss and data science experience&#39;,
- &#39;creating the data science experience&#39;,
- &#39;10 pieces of advice to beginner data scientists&#39;,
- &#39;overfitting in machine learning: what it is and how to prevent it&#39;,
- &#39;airbnb data for analytics: portland calendar&#39;,
- &#39;developing ibm streams applications with the python api (version 1.6)&#39;,
- &#39;learning statistics on youtube&#39;,
- &#39;dry bulb temperature, by country, station and year&#39;,
- &#39;analyze starcraft ii replays with jupyter notebooks&#39;,
- &#39;deep learning from scratch i: computational graphs&#39;,
- &#39;0 to life-changing app: scala first steps and an interview with jakob odersky&#39;,
- &#34;for ai to get creative, it must learn the rules--then how to break &#39;em&#34;,
- &#39;ibm watson facebook posts for 2015&#39;,
- &#39;what is smote in an imbalanced class setting (e.g. fraud detection)?&#39;,
- &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;insights from new york car accident reports&#39;,
- &#39;open sourcing 223gb of driving data – udacity inc&#39;,
- &#39;a guide to receptive field arithmetic for convolutional neural networks&#39;,
- &#39;a guide to convolution arithmetic for deep learning&#39;,
- &#39;7292    a dramatic tour through python’s data visualiz...\nName: title, dtype: object&#39;,
- &#39;data science experience demo: modeling energy usage in nyc&#39;,
- &#39;build a predictive analytic model&#39;,
- &#39;easy json loading and social sharing in dsx notebooks&#39;,
- &#39;discover, catalog and govern data with ibm data catalog&#39;,
- &#39;an interview with pythonista katharine jarmul&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;ml algorithm != learning machine&#39;,
- &#39;the power of machine learning in spark&#39;,
- &#39;do i need to learn r?&#39;,
- &#39;city population by sex, city and city type&#39;,
- &#39;probabilistic graphical models tutorial\u200a—\u200apart 1 – stats and bots&#39;,
- &#39;cifar-10 - python version&#39;,
- &#39;share the (pixiedust) magic – ibm watson data lab – medium&#39;,
- &#39;employed population by occupation and age&#39;,
- &#39;customers of a telco including services used&#39;,
- &#39;this week in data science (april 25, 2017)&#39;,
- &#39;predicting churn with the spss random tree algorithm&#39;,
- &#39;annual precipitation by country 1990-2009&#39;,
- &#39;airbnb data for analytics: vancouver reviews&#39;,
- &#39;a moving average trading strategy&#39;,
- &#39;essentials of machine learning algorithms (with python and r codes)&#39;,
- &#39;htmlwidgets: javascript data visualization for r&#39;,
- &#39;best practices for custom models in watson visual recognition&#39;,
- &#39;ml optimization using cognitive assistant&#39;,
- &#39;times world university ranking analysis&#39;,
- &#39;airbnb data for analytics: washington d.c. listings&#39;,
- &#39;time series anomaly detection algorithms – stats and bots&#39;,
- &#39;house building with worker skills&#39;,
- &#39;uci: heart disease - cleveland&#39;,
- &#39;understanding empirical bayes estimation (using baseball statistics)&#39;,
- &#39;maximize oil company profits&#39;,
- &#39;data model with streaming analytics and python&#39;,
- &#39;use iot data in streams designer for billing and alerts&#39;,
- &#39;imitation learning in tensorflow (hopper from openai gym)&#39;,
- &#39;cleaning the swamp: turn your data lake into a source of crystal-clear insight&#39;,
- &#39;how to use version control (github) in rstudio within dsx?&#39;,
- &#39;7 types of job profiles that makes you a data scientist&#39;,
- &#39;build a logistic regression model with wml &amp; dsx&#39;,
- &#39;breast cancer wisconsin (diagnostic) data set&#39;,
- &#39;apache systemml&#39;,
- &#39;54174    detect potentially malfunctioning sensors in r...\nName: title, dtype: object&#39;,
- &#39;pixieapp for outlier detection&#39;,
- &#39;total population by country&#39;,
- &#39;deep learning achievements over the past year &#39;,
- &#39;use data assets in a project using ibm data catalog&#39;,
- &#39;airbnb data for analytics: amsterdam listings&#39;,
- &#39;movie recommender system with spark machine learning&#39;,
- &#39;the difference between ai, machine learning, and deep learning?&#39;,
- &#39;this week in data science (february 21, 2017)&#39;,
- &#39;502    forgetting the past to learn the future: long ...\nName: title, dtype: object&#39;,
- &#39;annual % population growth by country&#39;,
- &#39;model bike sharing data with spss&#39;,
- &#39;programmatic evaluation using watson conversation&#39;,
- &#39;how to write the first for loop in r&#39;,
- &#39;the random forest algorithm &#39;,
- &#39;adolescent fertility rate (births per 1,000 women ages 15-19), worldwide&#39;,
- &#34;let&#39;s have some fun with nfl data&#34;,
- &#39;airbnb data for analytics: london listings&#39;,
- &#39;mapping points with folium&#39;,
- &#39;breaking the 80/20 rule: how data catalogs transform data scientists’ productivity&#39;,
- &#39;country statistics: commercial bank prime lending rate&#39;,
- &#39;visualize data with the matplotlib library&#39;,
- &#39;simple linear regression? do it the bayesian way&#39;,
- &#39;a fast on-disk format for data frames for r and python, powered by apache arrow&#39;,
- &#39;this week in data science (november 01, 2016)&#39;,
- &#39;airbnb data for analytics: vancouver calendar&#39;,
- &#39;calculate moving averages on real time data with streams designer&#39;,
- &#39;watson assistant workspace analysis with user logs&#39;,
- &#39;households by type of household, age and sex of head of household&#39;,
- &#39;hurricane how-to&#39;,
- &#39;use apache systemml and spark for machine learning&#39;,
- &#39;artificial intelligence, ethically speaking – inside machine learning – medium&#39;,
- &#39;model a golomb ruler&#39;,
- &#39;use spark for python to load data and run sql queries&#39;,
- &#39;shiny 0.12: interactive plots with ggplot2&#39;,
- &#39;build a python app on the streaming analytics service&#39;,
- &#39;what caused the challenger disaster?&#39;,
- &#39;the unit commitment problem&#39;,
- &#39;connect to db2 warehouse on cloud and db2 using scala&#39;,
- &#39;co2 emissions (metric tons per capita) by country&#39;,
- &#39;from python nested lists to multidimensional numpy arrays&#39;,
- &#39;apache spark as the new engine of genomics&#39;,
- &#39;process events from the watson iot platform in a streams python application&#39;,
- &#39;part-time employment rate, worldwide, by country and year&#39;,
- &#39;united states demographic measures: population and age&#39;,
- &#39;country statistics: unemployment rate&#39;,
- &#39;analyze facebook data using ibm watson and watson studio&#39;,
- &#39;talent vs luck: the role of randomness in success and failure&#39;,
- &#39;uci: sms spam collection&#39;,
- &#39;customer demographics and sales&#39;,
- &#39;a comparison of logistic regression and naive bayes &#39;,
- &#39;a day in the life of a data engineer&#39;,
- &#39;airbnb data for analytics: amsterdam calendar&#39;,
- &#39;ratio (% of population) at national poverty line by country&#39;,
- &#39;housing (2015): united states demographic measures&#39;,
- &#39;airbnb data for analytics: sydney calendar&#39;,
- &#39;the nurse assignment problem data&#39;,
- &#39;machine learning for the enterprise.&#39;,
- &#39;airbnb data for analytics: nashville calendar&#39;,
- &#39;enjoy python 3.5 in jupyter notebooks&#39;,
- &#39;use spark for r to load data and run sql queries&#39;,
- &#39;airbnb data for analytics: vancouver listings&#39;,
- &#39;income (2015): united states demographic measures&#39;,
- &#39;this week in data science (july 26, 2016)&#39;,
- &#39;data visualization with r: scrum metrics&#39;,
- &#39;51822    using apache spark as a parallel processing fr...\nName: title, dtype: object&#39;,
- &#39;use spark for scala to load data and run sql queries&#39;,
- &#39;transform anything into a vector&#39;,
- &#39;statistical bias types explained&#39;,
- &#39;detect malfunctioning iot sensors with streaming analytics&#39;,
- &#39;how to use db2 warehouse on cloud in data science experience notebooks&#39;,
- &#39;uci: car evaluation&#39;,
- &#39;fortune 100 companies&#39;,
- &#39;10 powerful features on watson data platform, no coding necessary&#39;,
- &#39;country statistics: telephones - mobile cellular&#39;,
- &#39;why you should master r (even if it might eventually become obsolete)&#39;,
- &#39;recent trends in recommender systems&#39;,
- &#39;how the circle line rogue train was caught with data&#39;,
- &#39;run shiny applications in rstudio in dsx&#39;,
- &#39;continuous learning on watson&#39;,
- &#39;environment statistics database - water&#39;,
- &#39;working with on-premises databases — step by step&#39;,
- &#39;blogging with brunel&#39;,
- &#39;uci: white wine quality&#39;,
- &#39;interactive time series with dygraphs&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;foreign direct investment, net inflows (bop, current us$) by country&#39;,
- &#39;airbnb data for analytics: athens calendar&#39;,
- &#39;external debt stocks, total (dod, current us$) by country&#39;,
- &#39;working with sqlite databases using python and pandas&#39;,
- &#39;aspiring data scientists! start to learn statistics with these 6 books!&#39;,
- &#39;finding the user in data science&#39;,
- &#39;watson speech-to-text services — tl;dr need not apply&#39;,
- &#39;uci: poker hand - training data set&#39;,
- &#39;run dsx notebooks on amazon emr&#39;,
- &#39;ibm cloud sql query&#39;,
- &#39;use r dataframes &amp; ibm watson natural language understanding&#39;,
- &#39;united states demographic measures: zip code tabulation areas (zctas)&#39;,
- &#39;the t-distribution: a key statistical concept discovered by a beer brewery&#39;,
- &#39;leaflet: interactive web maps with r&#39;,
- &#39;web picks by dataminingapps&#39;,
- &#39;optimization for deep learning highlights in 2017&#39;,
- &#39;country statistics: current account balance&#39;,
- &#39;airbnb data for analytics: amsterdam reviews&#39;,
- &#39;develop a scala spark model on chicago building violations&#39;,
- &#39;population below national poverty line, total, percentage&#39;,
- &#39;country statistics: health expenditures&#39;,
- &#39;airbnb data for analytics: venice listings&#39;,
- &#39;agriculture, value added (% of gdp) by country&#39;,
- &#39;education (2015): united states demographic measures&#39;,
- &#39;10 data science, machine learning and ai podcasts you must listen to&#39;,
- &#39;improving quality of life with spark-empowered machine learning&#39;,
- &#39;births attended by skilled health staff (% of total) by country&#39;,
- &#39;use sql with data in hadoop python&#39;,
- &#39;fashion-mnist&#39;,
- &#39;dt: an r interface to the datatables library&#39;,
- &#39;visualize the 1854 london cholera outbreak&#39;,
- &#39;country population by gender 1985-2005&#39;,
- &#39;intelligent applications - apache spark&#39;,
- &#39;ingest data from message hub in a streams flow&#39;,
- &#39;from spark ml model to online scoring with scala&#39;,
- &#39;contraceptive prevalence (% women 15-49) by country&#39;,
- &#39;overlapping co-cluster recommendation algorithm (ocular)&#39;,
- &#39;airbnb data for analytics: antwerp calendar&#39;,
- &#39;migrating to python 3 with pleasure&#39;,
- &#39;wages&#39;,
- &#39;working with notebooks in dsx&#39;,
- &#39;country statistics: infant mortality rate&#39;,
- &#39;uci: red wine quality&#39;,
- &#39;a new version of dt (0.2) on cran&#39;,
- &#39;mobile-cellular telephone subscriptions per 100 inhabitants, worldwide&#39;,
- &#39;uci: adult - predict income&#39;,
- &#39;what’s new in data refinery?&#39;,
- &#39;data science of variable selection&#39;,
- &#39;interactive web apps with shiny cheat sheet&#39;,
- &#39;time series analysis using max/min and neuroscience&#39;,
- &#39;empirical bayes for multiple sample sizes&#39;,
- &#39;package development with devtools  cheat sheet&#39;,
- &#39;r markdown reference guide&#39;,
- &#39;life expectancy at birth by country in total years&#39;,
- &#39;airbnb data for analytics: vienna calendar&#39;,
- &#39;intentional homicide, number and rate per 100,000 population, by country&#39;,
- &#39;foundational methodology for data science&#39;,
- &#39;airbnb data for analytics: trentino listings&#39;,
- &#39;how can data scientists collaborate to build better business&#39;,
- &#39;reducing overplotting in scatterplots&#39;,
- &#39;health insurance (2015): united states demographic measures&#39;,
- &#39;effectively using\xa0matplotlib&#39;,
- &#39;worldwide electricity demand and production 1990-2012&#39;,
- &#39;enhanced color mapping&#39;,
- &#39;airbnb data for analytics: paris listings&#39;,
- &#39;unstructured and structured data versus repetitive and non-repetitive&#39;,
- &#39;load data into rstudio for analysis in dsx&#39;,
- &#39;airbnb data for analytics: toronto reviews&#39;,
- &#39;airbnb data for analytics: berlin reviews&#39;,
- &#39;international liquidity&#39;,
- &#39;get social with your notebooks in dsx&#39;,
- &#39;visual information theory &#39;,
- &#39;use ibm data science experience to read and write data stored on amazon s3&#39;,
- &#39;66855    migration from ibm bluemix data connect api (a...\nName: title, dtype: object&#39;,
- &#39;work with data connections in dsx&#39;,
- &#39;the art of side effects: curing apache spark streaming’s amnesia (part 1/2)&#39;,
- &#39;data visualization playbook: revisiting the basics&#39;,
- &#39;airbnb data for analytics: vienna listings&#39;,
- &#39;airbnb data for analytics: austin listings&#39;,
- &#39;visualising data the node.js way&#39;,
- &#39;country statistics: electricity - from fossil fuels&#39;,
- &#39;social media insights with watson developer cloud &amp; watson studio&#39;,
- &#39;country statistics: reserves of foreign exchange and gold&#39;,
- &#39;percentage of internet users by country&#39;,
- &#39;a glimpse inside the mind of a data scientist&#39;,
- &#39;airbnb data for analytics: boston reviews&#39;,
- &#39;this week in data science (december 27, 2016)&#39;,
- &#39;airbnb data for analytics: chicago calendar&#39;,
- &#39;airbnb data for analytics: sydney reviews&#39;,
- &#39;shaping data with ibm data refinery&#39;,
- &#39;advancements in the spark community&#39;,
- &#39;analyze data, build a dashboard with spark and pixiedust&#39;,
- &#39;a tensorflow regression model to predict house values&#39;,
- &#39;airbnb data for analytics: chicago listings&#39;,
- &#39;airbnb data for analytics: washington d.c. reviews&#39;,
- &#39;country statistics: airports&#39;,
- &#39;consumer prices&#39;,
- &#39;airbnb data for analytics: austin calendar&#39;,
- &#39;country statistics: electricity - consumption&#39;,
- &#39;occupation (2015): united states demographic measures&#39;,
- &#39;uci: forest fires&#39;,
- &#39;machine learning for everyone&#39;,
- &#39;stacking multiple custom models in watson visual recognition&#39;,
- &#39;making sense of the bias / variance trade-off in (deep) reinforcement learning&#39;,
- &#39;apache spark: upgrade and speed-up your analytics&#39;,
- &#39;unmet need for family planning, spacing, percentage, worldwide, by country&#39;,
- &#39;why relational databases and r?&#39;,
- &#39;score a predictive model built with ibm spss modeler, wml &amp; dsx&#39;,
- &#39;don’t overlook simpler techniques and algorithms&#39;,
- &#39;web picks (week of 2 october 2017)&#39;,
- &#39;airbnb data for analytics: boston listings&#39;,
- &#39;dimensionality reduction algorithms&#39;,
- &#34;2875    hugo larochelle&#39;s neural network &amp; deep learni...\nName: title, dtype: object&#34;,
- &#34;h2o with ibm&#39;s data science experience (dsx)&#34;,
- &#39;total employment, by economic activity (thousands)&#39;,
- &#39;country statistics: stock of broad money&#39;,
- &#39;country statistics: crude oil - exports&#39;,
- &#39;government consumption expenditure&#39;,
- &#39;airbnb data for analytics: vienna reviews&#39;,
- &#39;from local spark mllib model to cloud with watson machine learning&#39;,
- &#39;you could be looking at it all wrong&#39;,
- &#39;country statistics: stock of domestic credit&#39;,
- &#39;load db2 warehouse on cloud data with apache spark in dsx&#39;,
- &#39;r for data science&#39;,
- &#39;uci: abalone&#39;,
- &#39;dplyr 0.5.0&#39;,
- &#39;ggplot2 2.2.0 coming soon!&#39;,
- &#39;country statistics: refined petroleum products - production&#39;,
- &#39;world marriage data&#39;,
- &#39;country populations 15 years of age and over, by educational attainment, age and sex&#39;,
- &#39;forest area by country in sq km&#39;,
- &#39;recommender systems: approaches &amp; algorithms&#39;,
- &#39;environment statistics database - waste&#39;,
- &#39;data science expert interview: holden karau&#39;,
- &#39;airbnb data for analytics: barcelona listings&#39;,
- &#39;beyond parallelize and collect&#39;,
- &#39;country statistics: merchant marine&#39;,
- &#39;uci: wine recognition&#39;,
- &#39;country statistics: gross national saving&#39;,
- &#39;refugees&#39;,
- &#39;airbnb data for analytics: new york city reviews&#39;,
- &#39;natural gas production, 1995 - 2012, worldwide&#39;,
- &#39;country statistics: crude oil - imports&#39;,
- &#39;seti data, publicly available, from ibm&#39;,
- &#39;airbnb data for analytics: new york city calendar&#39;,
- &#39;country statistics: roadways&#39;,
- &#39;missing data conundrum: exploration and imputation techniques&#39;,
- &#39;airbnb data for analytics: toronto calendar&#39;,
- &#39;cache table in apache spark sql&#39;,
- &#39;worldwide county and region - national accounts - gross national income 1948-2010&#39;,
- &#39;airbnb data for analytics: antwerp reviews&#39;,
- &#39;airbnb data for analytics: new orleans reviews&#39;,
- &#39;airbnb data for analytics: toronto listings&#39;,
- &#39;fertility rate by country in total births per woman&#39;,
- &#39;airbnb data for analytics: antwerp listings&#39;,
- &#39;ibm watson machine learning: get started&#39;,
- &#39;back to basics — jupyter notebooks&#39;,
- &#39;why even a moth’s brain is smarter than an ai&#39;,
- &#39;airbnb data for analytics: boston calendar&#39;,
- &#39;united states demographic measures: education&#39;,
- &#39;apache spark sql analyzer resolves order-by column&#39;,
- &#39;which one to choose for your problem&#39;,
- &#39;country statistics - europe - population and society&#39;,
- &#39;roads paved as % of total roads by country&#39;,
- &#39;airbnb data for analytics: paris calendar&#39;,
- &#39;using the maker palette in the ibm data science experience&#39;,
- &#39;airbnb data for analytics: athens reviews&#39;,
- &#39;big data is better data&#39;,
- &#39;what is systemml? why is it relevant to you?&#39;,
- &#39;country statistics: distribution of family income - gini index&#39;,
- &#39;greenhouse gas emissions worldwide&#39;,
- &#39;poverty (2015): united states demographic measures&#39;,
- &#39;airbnb data for analytics: austin reviews&#39;,
- &#39;world tourism data by the world tourism organization&#39;,
- &#39;interest rates&#39;,
- &#39;clustering: a guide for the perplexed&#39;,
- &#39;airbnb data for analytics: san francisco listings&#39;,
- &#39;airbnb data for analytics: venice calendar&#39;,
- &#39;laplace noising versus simulated out of sample methods (cross frames)&#39;,
- &#39;airbnb data for analytics: paris reviews&#39;,
- &#39;airbnb data for analytics: san diego reviews&#39;,
- &#39;united states demographic measures: income&#39;,
- &#39;electric power consumption (kwh per capita) by country&#39;,
- &#39;airbnb data for analytics: antwerp listings test&#39;,
- &#39;country statistics: maternal mortality rate&#39;,
- &#39;measles immunization % children 12-23 months by country&#39;,
- &#39;uci: poker hand - testing data set&#39;,
- &#39;mobile cellular subscriptions per 100 people by country&#39;,
- &#39;how to get a job in deep learning&#39;,
- &#39;machine learning for the enterprise&#39;,
- &#39;primary school completion rate % of relevant age group by country&#39;,
- &#39;a survey of books about apache spark™&#39;,
- &#39;this week in data science (november 22, 2016)&#39;,
- &#39;create a connection and add it to a project using ibm data refinery&#39;,
- &#39;annual % inflation by country&#39;,
- &#39;build deep learning architectures with neural network modeler&#39;,
- &#39;country statistics: population&#39;,
- &#39;use pmml to predict iris species&#39;,
- &#39;country statistics: crude oil - proved reserves&#39;,
- &#39;airbnb data for analytics: oakland reviews&#39;,
- &#39;country surface area (sq. km)&#39;,
- &#39;the new builders podcast ep 3: collaboration&#39;,
- &#39;country statistics: central bank discount rate&#39;,
- &#39;learn about data science in world of watson&#39;,
- &#39;country statistics: internet users&#39;,
- &#39;persistent changes to spark config in dsx&#39;,
- &#39;publish notebooks to github in dsx&#39;,
- &#39;this week in data science (october 18, 2016)&#39;,
- &#39;nips 2016 — day 2 highlights&#39;,
- &#39;jupyter (ipython) notebooks features&#39;,
- &#39;airbnb data for analytics: chicago reviews&#39;,
- &#39;airbnb data for analytics: trentino reviews&#39;,
- &#39;airbnb data for analytics: venice reviews&#39;,
- &#39;airbnb data for analytics: barcelona reviews&#39;,
- &#39;governance overview for ibm data catalog&#39;,
- &#39;airbnb data for analytics: sydney listings&#39;,
- &#39;airbnb data for analytics: madrid listings&#39;,
- &#39;the data processing inequality&#39;,
- &#39;airbnb data for analytics: portland reviews&#39;,
- &#39;airbnb data for analytics: washington d.c. calendar&#39;,
- &#39;find airbnb deals in portland with machine learning using r&#39;,
- &#39;load and analyze public data sets in dsx&#39;,
- &#39;energy use (kg of oil equivalent per capita) by country&#39;,
- &#39;create a project in dsx&#39;,
- &#39;ibm data catalog overview&#39;,
- &#39;worldwide fuel oil consumption by household (in 1000 metric tons)&#39;,
- &#39;airbnb data for analytics: san diego listings&#39;,
- &#39;country statistics: natural gas - consumption&#39;,
- &#39;airbnb data for analytics: montreal listings&#39;,
- &#39;country statistics: railways&#39;,
- &#39;refugees, worldwide, 2003 - 2013&#39;,
- &#39;country statistics: market value of publicly traded shares&#39;,
- &#39;webinar: april 11 - thinking inside the box: you can do that inside a data frame?!&#39;]</pre>
+ &#39;the 3 kinds of context: machine learning and the art of the frame&#39;]</pre>
 </div>
 
 </div>
@@ -17393,7 +16808,7 @@ The 3 most similar users to user 46 are: [4201, 3782, 23]
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[32]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[141]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Test your functions here - No need to change this code - just run this cell</span>
@@ -17447,7 +16862,7 @@ The 3 most similar users to user 46 are: [4201, 3782, 23]
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[142]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_top_sorted_users</span><span class="p">(</span><span class="n">user_id</span><span class="p">,</span> <span class="n">df</span><span class="o">=</span><span class="n">df</span><span class="p">,</span> <span class="n">user_item</span><span class="o">=</span><span class="n">user_item</span><span class="p">):</span>
@@ -17483,7 +16898,7 @@ The 3 most similar users to user 46 are: [4201, 3782, 23]
 
     <span class="c1"># create dataframe</span>
     <span class="n">neighbors_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s1">&#39;neighbor_id&#39;</span><span class="p">:</span> <span class="n">neighbor_id</span><span class="p">,</span><span class="s1">&#39;similarity&#39;</span><span class="p">:</span> <span class="n">similarities</span><span class="p">,</span><span class="s1">&#39;num_interactions&#39;</span><span class="p">:</span> <span class="n">num_interactions</span><span class="p">})</span>
-    <span class="n">neighbors_df</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">&#39;similarity&#39;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">neighbors_df</span><span class="o">.</span><span class="n">sort_values</span><span class="p">([</span><span class="s1">&#39;similarity&#39;</span><span class="p">,</span><span class="s1">&#39;num_interactions&#39;</span><span class="p">],</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">neighbors_df</span> 
 
 
@@ -17543,7 +16958,7 @@ The 3 most similar users to user 46 are: [4201, 3782, 23]
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[34]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[143]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Quick spot check - don&#39;t change this code - just use it to test your functions</span>
@@ -17573,10 +16988,10 @@ The 3 most similar users to user 46 are: [4201, 3782, 23]
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>The top 10 recommendations for user 20 are the following article ids:
-[&#39;1271.0&#39;, &#39;1053.0&#39;, &#39;1296.0&#39;, &#39;1186.0&#39;, &#39;981.0&#39;, &#39;53.0&#39;, &#39;495.0&#39;, &#39;793.0&#39;, &#39;727.0&#39;, &#39;89.0&#39;]
+[&#39;1330.0&#39;, &#39;1427.0&#39;, &#39;1364.0&#39;, &#39;1170.0&#39;, &#39;1162.0&#39;, &#39;1304.0&#39;, &#39;1351.0&#39;, &#39;1160.0&#39;, &#39;1354.0&#39;, &#39;1368.0&#39;]
 
 The top 10 recommendations for user 20 are the following article names:
-[&#39;customer demographics and sales&#39;, &#39;access mysql with python&#39;, &#39;fortune 100 companies&#39;, &#39;connect to db2 warehouse on cloud and db2 using scala&#39;, &#39;super fast string matching in python&#39;, &#39;introducing streams designer&#39;, &#39;top 10 machine learning algorithms for beginners&#39;, &#39;10 powerful features on watson data platform, no coding necessary&#39;, &#39;from python nested lists to multidimensional numpy arrays&#39;, &#39;top 20 r machine learning and data science packages&#39;]
+[&#39;insights from new york car accident reports&#39;, &#39;use xgboost, scikit-learn &amp; ibm watson machine learning apis&#39;, &#39;predicting churn with the spss random tree algorithm&#39;, &#39;apache spark lab, part 1: basic concepts&#39;, &#39;analyze energy consumption in buildings&#39;, &#39;gosales transactions for logistic regression model&#39;, &#39;model bike sharing data with spss&#39;, &#39;analyze accident reports on amazon emr spark&#39;, &#39;movie recommender system with spark machine learning&#39;, &#39;putting a human face on machine learning&#39;]
 </pre>
 </div>
 </div>
@@ -17594,7 +17009,7 @@ The top 10 recommendations for user 20 are the following article names:
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[35]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[144]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">get_top_sorted_users</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># Most similar to user 1 is 3933</span>
@@ -17613,7 +17028,7 @@ The top 10 recommendations for user 20 are the following article names:
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[35]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[144]:</div>
 
 
 
@@ -17649,22 +17064,16 @@ The top 10 recommendations for user 20 are the following article names:
       <td>45</td>
     </tr>
     <tr>
-      <th>3780</th>
-      <td>3782</td>
-      <td>17.0</td>
-      <td>363</td>
-    </tr>
-    <tr>
       <th>21</th>
       <td>23</td>
       <td>17.0</td>
       <td>364</td>
     </tr>
     <tr>
-      <th>4457</th>
-      <td>4459</td>
-      <td>15.0</td>
-      <td>158</td>
+      <th>3780</th>
+      <td>3782</td>
+      <td>17.0</td>
+      <td>363</td>
     </tr>
     <tr>
       <th>201</th>
@@ -17673,34 +17082,40 @@ The top 10 recommendations for user 20 are the following article names:
       <td>160</td>
     </tr>
     <tr>
+      <th>4457</th>
+      <td>4459</td>
+      <td>15.0</td>
+      <td>158</td>
+    </tr>
+    <tr>
       <th>...</th>
       <td>...</td>
       <td>...</td>
       <td>...</td>
     </tr>
     <tr>
-      <th>2323</th>
-      <td>2325</td>
-      <td>0.0</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>2324</th>
-      <td>2326</td>
-      <td>0.0</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>2325</th>
-      <td>2327</td>
+      <th>5129</th>
+      <td>5131</td>
       <td>0.0</td>
       <td>1</td>
     </tr>
     <tr>
-      <th>2326</th>
-      <td>2328</td>
+      <th>5139</th>
+      <td>5141</td>
       <td>0.0</td>
-      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>5142</th>
+      <td>5144</td>
+      <td>0.0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>5145</th>
+      <td>5147</td>
+      <td>0.0</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>5146</th>
@@ -17723,7 +17138,7 @@ The top 10 recommendations for user 20 are the following article names:
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[36]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[145]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">get_top_sorted_users</span><span class="p">(</span><span class="mi">131</span><span class="p">)</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">15</span><span class="p">)</span>
@@ -17742,7 +17157,7 @@ The top 10 recommendations for user 20 are the following article names:
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[36]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[145]:</div>
 
 
 
@@ -17790,28 +17205,16 @@ The top 10 recommendations for user 20 are the following article names:
       <td>364</td>
     </tr>
     <tr>
-      <th>4457</th>
-      <td>4459</td>
-      <td>33.0</td>
-      <td>158</td>
-    </tr>
-    <tr>
       <th>201</th>
       <td>203</td>
       <td>33.0</td>
       <td>160</td>
     </tr>
     <tr>
-      <th>3695</th>
-      <td>3697</td>
-      <td>29.0</td>
-      <td>145</td>
-    </tr>
-    <tr>
-      <th>3762</th>
-      <td>3764</td>
-      <td>29.0</td>
-      <td>169</td>
+      <th>4457</th>
+      <td>4459</td>
+      <td>33.0</td>
+      <td>158</td>
     </tr>
     <tr>
       <th>97</th>
@@ -17820,10 +17223,22 @@ The top 10 recommendations for user 20 are the following article names:
       <td>170</td>
     </tr>
     <tr>
+      <th>3762</th>
+      <td>3764</td>
+      <td>29.0</td>
+      <td>169</td>
+    </tr>
+    <tr>
       <th>48</th>
       <td>49</td>
       <td>29.0</td>
       <td>147</td>
+    </tr>
+    <tr>
+      <th>3695</th>
+      <td>3697</td>
+      <td>29.0</td>
+      <td>145</td>
     </tr>
     <tr>
       <th>240</th>
@@ -17838,16 +17253,16 @@ The top 10 recommendations for user 20 are the following article names:
       <td>147</td>
     </tr>
     <tr>
-      <th>4930</th>
-      <td>4932</td>
-      <td>24.0</td>
-      <td>76</td>
-    </tr>
-    <tr>
       <th>39</th>
       <td>40</td>
       <td>24.0</td>
       <td>78</td>
+    </tr>
+    <tr>
+      <th>4930</th>
+      <td>4932</td>
+      <td>24.0</td>
+      <td>76</td>
     </tr>
     <tr>
       <th>57</th>
@@ -17856,10 +17271,10 @@ The top 10 recommendations for user 20 are the following article names:
       <td>142</td>
     </tr>
     <tr>
-      <th>3594</th>
-      <td>3596</td>
+      <th>3738</th>
+      <td>3740</td>
       <td>23.0</td>
-      <td>131</td>
+      <td>140</td>
     </tr>
   </tbody>
 </table>
@@ -17893,7 +17308,7 @@ The top 10 recommendations for user 20 are the following article names:
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[146]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">new_user</span> <span class="o">=</span> <span class="s1">&#39;0.0&#39;</span>
@@ -17911,7 +17326,7 @@ The top 10 recommendations for user 20 are the following article names:
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[38]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[147]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">new_user_recs</span>
@@ -17930,7 +17345,7 @@ The top 10 recommendations for user 20 are the following article names:
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[38]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[147]:</div>
 
 
 
@@ -17957,7 +17372,7 @@ The top 10 recommendations for user 20 are the following article names:
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[148]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">assert</span> <span class="nb">set</span><span class="p">(</span><span class="n">new_user_recs</span><span class="p">)</span> <span class="o">==</span> <span class="nb">set</span><span class="p">([</span><span class="s1">&#39;1314.0&#39;</span><span class="p">,</span><span class="s1">&#39;1429.0&#39;</span><span class="p">,</span><span class="s1">&#39;1293.0&#39;</span><span class="p">,</span><span class="s1">&#39;1427.0&#39;</span><span class="p">,</span><span class="s1">&#39;1162.0&#39;</span><span class="p">,</span><span class="s1">&#39;1364.0&#39;</span><span class="p">,</span><span class="s1">&#39;1304.0&#39;</span><span class="p">,</span><span class="s1">&#39;1170.0&#39;</span><span class="p">,</span><span class="s1">&#39;1431.0&#39;</span><span class="p">,</span><span class="s1">&#39;1330.0&#39;</span><span class="p">]),</span> <span class="s2">&quot;Oops!  It makes sense that in this case we would want to recommend the most popular articles, because we don&#39;t know anything about these users.&quot;</span>
@@ -18001,7 +17416,7 @@ The top 10 recommendations for user 20 are the following article names:
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[40]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[149]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Load the matrix here</span>
@@ -18016,7 +17431,7 @@ The top 10 recommendations for user 20 are the following article names:
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[41]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[150]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># quick look at the matrix</span>
@@ -18036,7 +17451,7 @@ The top 10 recommendations for user 20 are the following article names:
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[41]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[150]:</div>
 
 
 
@@ -18668,7 +18083,7 @@ The top 10 recommendations for user 20 are the following article names:
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[42]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[151]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Perform SVD on the User-Item Matrix Here</span>
@@ -18696,7 +18111,7 @@ The top 10 recommendations for user 20 are the following article names:
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[43]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[152]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">num_latent_feats</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">700</span><span class="o">+</span><span class="mi">10</span><span class="p">,</span><span class="mi">20</span><span class="p">)</span>
@@ -18769,7 +18184,7 @@ The top 10 recommendations for user 20 are the following article names:
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[44]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[153]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_train</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">40000</span><span class="p">)</span>
@@ -18808,7 +18223,7 @@ The top 10 recommendations for user 20 are the following article names:
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[45]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[154]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">user_item_train</span><span class="o">.</span><span class="n">shape</span>
@@ -18827,7 +18242,7 @@ The top 10 recommendations for user 20 are the following article names:
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[45]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[154]:</div>
 
 
 
@@ -18845,7 +18260,7 @@ The top 10 recommendations for user 20 are the following article names:
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[46]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[155]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">user_item_test</span><span class="o">.</span><span class="n">shape</span>
@@ -18864,7 +18279,7 @@ The top 10 recommendations for user 20 are the following article names:
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[46]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[155]:</div>
 
 
 
@@ -18882,7 +18297,7 @@ The top 10 recommendations for user 20 are the following article names:
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[52]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[156]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># We can make predictions for 20 users</span>
@@ -18902,7 +18317,7 @@ The top 10 recommendations for user 20 are the following article names:
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[52]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[156]:</div>
 
 
 
@@ -18920,7 +18335,7 @@ The top 10 recommendations for user 20 are the following article names:
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[51]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[157]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># We can make predictions for all movies</span>
@@ -18940,7 +18355,7 @@ The top 10 recommendations for user 20 are the following article names:
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[51]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[157]:</div>
 
 
 
@@ -18958,7 +18373,7 @@ The top 10 recommendations for user 20 are the following article names:
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[48]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[158]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Replace the values in the dictionary below</span>
@@ -18993,7 +18408,7 @@ The top 10 recommendations for user 20 are the following article names:
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[53]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[159]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># fit SVD on the user_item_train matrix</span>
@@ -19010,7 +18425,7 @@ The top 10 recommendations for user 20 are the following article names:
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[160]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Use these cells to see how well you can use the training </span>
@@ -19025,7 +18440,7 @@ The top 10 recommendations for user 20 are the following article names:
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[55]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[161]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">test_idx_rows</span> <span class="o">=</span> <span class="n">user_item_train</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">test_idx</span><span class="p">)</span>
@@ -19042,7 +18457,7 @@ The top 10 recommendations for user 20 are the following article names:
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[56]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[162]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">number_latent_features</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">700</span><span class="o">+</span><span class="mi">10</span><span class="p">,</span><span class="mi">20</span><span class="p">)</span>
@@ -19114,7 +18529,7 @@ The top 10 recommendations for user 20 are the following article names:
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[162]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span> 
@@ -19134,10 +18549,7 @@ The top 10 recommendations for user 20 are the following article names:
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><strong>According to the graph (the accuracy),the train accuracy increases with the number of latent features, while the accuracy decreases in the test set. We can conclude that it is better to use smaller number of latent features, in order to avoid overfitting.
-But, we have very small amount of data. If we have, for example, ratings, maybe gender, and some other information, we can make better recommendations.
-We should mention that using SVD in our case, we can only make recommendations for 20 users in both the training and test dataset.
-If we want to test how our recommendation engine works, we can preform A/B test for our new users (that way we can help solve the cold start problem). In that case, we will split the users into two groups using cookies. What we can try here, is to use our algorithm to one group, and for the other group, we can just recommend the most popular articles. In that way, we can see the performance of our algorithm in real life. We will measure this based on clicks. We can track the time spent on article.</strong></p>
+<p>The train accuracy increases with the number of latent features, while the accuracy decreases in the test set. According to the graph (the accuracy), we can conclude that it is better to use smaller number of latent features, in order to avoid overfitting. But, we have very small amount of data. If we have, for example, ratings, maybe gender, and some other information, we can make better recommendations. I would try Autoencoders or Boltzmann's machines for this type of problem, but it does not mean that it will give us better results. We should mention that using SVD in our case, we can only make recommendations for 20 users in both the training and test dataset. If we want to test how our recommendation engine works, we can preform A/B test for our new users (that way we can help solve the cold start problem). In that case, we will split the users into two groups using cookies. What we can try here, is to use our algorithm to one group, and for the other group, we can just recommend the most popular articles. In that way, we can see the performance of our algorithm in real life. We will measure this based on clicks. We can track the time spent on article. This could be very useful. Also, I think it is okay the duration of this experiment to be one month and to have some method for getting feedbacks from users about the recommendations. Thanks to this, we can adjust the model. But, anyway, we need more data in order to make better model and better recommendations.</p>
 
 </div>
 </div>
@@ -19154,10 +18566,10 @@ If we want to test how our recommendation engine works, we can preform A/B test 
 </blockquote>
 
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[163]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">subprocess</span> <span class="kn">import</span> <span class="n">call</span>
@@ -19167,6 +18579,29 @@ If we want to test how our recommendation engine works, we can preform A/B test 
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[163]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>255</pre>
+</div>
+
+</div>
+
+</div>
+
 </div>
 
 </div>
